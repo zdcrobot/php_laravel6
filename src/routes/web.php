@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/downZip', 'Test\DownZipController@index');
+
+Route::get('/vue', 'Vue\VueController@index');
+
+Route::post('/uploadFile', 'Vue\VueController@uploadFile');
