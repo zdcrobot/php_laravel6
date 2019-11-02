@@ -16,4 +16,8 @@ class VueController extends Controller
         $ret = $request->file();
         return response()->json(array("message"=>"dd"));
     }
+
+    public function viewer(){
+        return view("vue.viewer");
+    }
 }
