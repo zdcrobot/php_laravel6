@@ -20,3 +20,4 @@ Route::get('/downZip', 'Test\DownZipController@index');
 Route::get('/vue', 'Vue\VueController@index');
 Route::post('/uploadFile', 'Vue\VueController@uploadFile');
 Route::get('/viewer', 'Vue\VueController@viewer');
+Route::get('/downloadFile', 'Vue\VueController@downloadFile');
